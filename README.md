@@ -12,7 +12,7 @@ A compact academic layout, retaining the original blue accent (`#2349cf`).
 
 - **Left sidebar** — a small portrait, name, position, affiliation, email, GitHub, and LinkedIn, with small blue icons.
 - **About me** — a concise personal introduction, including research interests.
-- **Research** — learning-based methods for dynamical systems, with a project figure on the left and the Deep Tangent Bundle description and GitHub link on the right. The figure and text stack on smaller screens.
+- **Research** — learning-based methods for dynamical systems, with the Deep Tangent Bundle description followed by the project figure and GitHub link.
 - **Teaching** — MATH 2551 (TA), MATH 4640 (LA), and MATH 3670 (LA) at Georgia Tech, with titles linked to the official course pages.
 
 On small screens, the sidebar sits above the main content. Research projects appear in the Research section; see the editing guide to add more. There is no publications section. Mengwei Sun’s name, biography, academic affiliation, email, and teaching courses have been supplied. The email, GitHub, and LinkedIn links are active. Teaching terms and responsibilities have not yet been provided and are omitted.
