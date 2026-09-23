@@ -52,7 +52,6 @@ article > .entry-meta { margin-top: 0.1rem; }
 .project-figure { margin: 0; }
 .project-figure > a { display: block; }
 .project-image { display: block; width: 100%; height: auto; }
-.project-figure figcaption { margin-top: 0.45rem; color: var(--muted); font-size: 0.8rem; line-height: 1.5; }
 .project-copy { min-width: 0; font-size: 0.9375rem; }
 .project-copy h3 { font-size: 1rem; }
 .project-copy > p { margin-top: 0.6rem; }

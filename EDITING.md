@@ -55,7 +55,7 @@ One or two short paragraphs will preserve the concise layout. You can delete the
 
 Find the `RESEARCH` comment between About me and Teaching. Edit the introductory paragraph or the Deep Tangent Bundle project description there. Keep `id="research"` unchanged so the Research navigation link continues to work.
 
-The project uses a two-column layout: a figure on the left and the description and GitHub link on the right. On smaller screens, these stack vertically. To replace the graph, add the image to `images/`, then update both the figure link's `href` and the image's `src`. Update the `alt` text, caption, and intrinsic `width` and `height` to match the new image. CSS controls its displayed size.
+The project uses a two-column layout: a figure on the left and the description and GitHub link on the right. On smaller screens, these stack vertically. To replace the graph, add the image to `images/`, then update both the figure link's `href` and the image's `src`. Update the `alt` text and intrinsic `width` and `height` to match the new image. CSS controls its displayed size. The figure has no visible caption.
 
 To add another project, copy an `<article>...</article>` block inside the same Research section, before its closing `</section>`. Replace the title, description, and URL with your project details:
 
@@ -65,7 +65,6 @@ To add another project, copy an `<article>...</article>` block inside the same R
     <a href="./images/[figure filename]" aria-label="View full-size project figure">
       <img class="project-image" src="./images/[figure filename]" alt="[Describe what the graph shows]" loading="lazy">
     </a>
-    <figcaption>[Short graph caption]</figcaption>
   </figure>
   <div class="project-copy">
     <h3>[Project title]</h3>
