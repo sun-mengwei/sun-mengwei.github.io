@@ -26,6 +26,7 @@ nav { display: flex; align-items: center; flex-wrap: wrap; gap: 2rem; }
 nav a { font-size: 0.9375rem; text-decoration: none; padding-block: 0.6rem; }
 .page-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 3.5rem; padding-block: 3.25rem 4rem; align-items: start; }
 .sidebar { font-size: 0.875rem; }
+.profile-photo { display: block; width: 144px; max-width: 100%; height: auto; margin-bottom: 1rem; border-radius: 6px; }
 .profile-name { font-weight: 650; font-size: 1.375rem; line-height: 1.4; margin-bottom: 0.35rem; }
 .profile-role { margin-bottom: 0.65rem; }
 .affiliation { color: var(--muted); }
@@ -60,6 +61,7 @@ article > .entry-meta { margin-top: 0.1rem; }
   nav a { font-size: 0.875rem; }
   .page-layout { grid-template-columns: 1fr; gap: 2rem; padding-top: 1.8rem; }
   .sidebar { padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+  .profile-photo { width: 120px; }
   .contact-list { display: flex; flex-wrap: wrap; gap: 0.6rem 1.6rem; margin-top: 1rem; }
   .contact-list > li + li { margin-top: 0; }
   h1, h2 { font-size: 1.375rem; }

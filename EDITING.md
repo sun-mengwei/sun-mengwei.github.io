@@ -24,6 +24,8 @@ Keep `<p class="profile-name">` and `</p>` when editing the displayed name. Remo
 
 Your name is already set to `Mengwei Sun`, including the browser-tab title and description near the top. Find the `PROFILE` comment to update your position, field, and institution. `<br>` starts a new line.
 
+Your portrait is stored in `images/mengwei-sun.png`. To change it, replace that file with a new square PNG, or update the `<img>` element's `src` if the filename changes. The `.profile-photo` rules in `styles.css` keep it at 144 pixels wide on larger screens and 120 pixels on phones. Include the image file when committing a replacement.
+
 Your email, GitHub, and LinkedIn entries are clickable links inside `<ul class="contact-list">`. Each list item contains an `<a>` link, an inline `<svg>` icon, and a visible text label.
 
 To change a destination, edit only its `href` value and leave the SVG markup intact:

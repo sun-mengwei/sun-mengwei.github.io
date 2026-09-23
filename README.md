@@ -10,7 +10,7 @@ For step-by-step instructions and copyable examples, see [Editing your academic 
 
 A compact academic layout, retaining the original blue accent (`#2349cf`).
 
-- **Left sidebar** — name, position, affiliation, email, GitHub, and LinkedIn, with small blue icons.
+- **Left sidebar** — a small portrait, name, position, affiliation, email, GitHub, and LinkedIn, with small blue icons.
 - **About me** — a concise personal introduction, including research interests.
 - **Teaching** — MATH 2551 (TA), MATH 4640 (LA), and MATH 3670 (LA) at Georgia Tech, with titles linked to the official course pages.
 
