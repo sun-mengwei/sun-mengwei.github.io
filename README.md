@@ -12,9 +12,10 @@ A compact academic layout, retaining the original blue accent (`#2349cf`).
 
 - **Left sidebar** — a small portrait, name, position, affiliation, email, GitHub, and LinkedIn, with small blue icons.
 - **About me** — a concise personal introduction, including research interests.
+- **Research** — learning-based methods for dynamical systems, featuring the Deep Tangent Bundle Method for Game Dynamics project and its GitHub link.
 - **Teaching** — MATH 2551 (TA), MATH 4640 (LA), and MATH 3670 (LA) at Georgia Tech, with titles linked to the official course pages.
 
-On small screens, the sidebar sits above the main content. Projects are omitted for now and can be restored later using the editing guide. There is no publications section. Mengwei Sun’s name, biography, academic affiliation, email, and teaching courses have been supplied. The email, GitHub, and LinkedIn links are active. Teaching terms and responsibilities have not yet been provided and are omitted.
+On small screens, the sidebar sits above the main content. Research projects appear in the Research section; see the editing guide to add more. There is no publications section. Mengwei Sun’s name, biography, academic affiliation, email, and teaching courses have been supplied. The email, GitHub, and LinkedIn links are active. Teaching terms and responsibilities have not yet been provided and are omitted.
 
 ## Preview
 
@@ -28,7 +29,7 @@ Then visit `http://127.0.0.1:4173`.
 
 ## Customize
 
-- Edit the biography, sidebar, and teaching entries in `index.html`. Comments mark the relevant blocks.
+- Edit the biography, sidebar, research projects, and teaching entries in `index.html`. Comments mark the relevant blocks.
 - Update the page title and description when changing the profile.
 - Update social profile destinations in the sidebar anchors if your URLs change.
 - The email already uses a clickable `mailto:` link.

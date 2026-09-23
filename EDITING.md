@@ -51,27 +51,21 @@ Find the `ABOUT` comment. Replace the two paragraphs below the “About me” he
 
 One or two short paragraphs will preserve the concise layout. You can delete the second paragraph if it is unnecessary. Leave the section's `id="about"` unchanged so the navigation continues to work.
 
-**4. Restore Projects later, when ready.**
+**4. Update your research and projects.**
 
-The Projects section is currently removed. To restore it, insert the following inside `<main>`, between the About me and Teaching sections. Replace the description before showing it on the website:
+Find the `RESEARCH` comment between About me and Teaching. Edit the introductory paragraph or the Deep Tangent Bundle project description there. Keep `id="research"` unchanged so the Research navigation link continues to work.
 
-```html
-<section id="projects" aria-labelledby="projects-title">
-  <h2 id="projects-title">Projects</h2>
-  <article>
-    <h3>Game dynamics</h3>
-    <p>[The question you study, your approach, and your current progress.]</p>
-  </article>
-</section>
-```
-
-Then restore the navigation link inside `<nav>`, between About and Teaching:
+To add another project, copy an `<article>...</article>` block inside the same Research section, before its closing `</section>`. Replace the title, description, and URL with your project details:
 
 ```html
-<a href="#projects">Projects</a>
+<article>
+  <h3>[Project title]</h3>
+  <p>[The question you study, your approach, and your current progress.]</p>
+  <p class="project-links"><a href="[Project URL]">View project on GitHub</a></p>
+</article>
 ```
 
-For another project, copy the complete `<article>...</article>` block inside the Projects section, before its closing `</section>`. Do not duplicate the section itself or its `id`. Add a repository link only when you have a real destination.
+Do not duplicate the Research section itself or its `id`. Add a repository link only when you have a real destination.
 
 You can also add a report PDF to the folder and link it with `<a href="./report.pdf">Project report</a>`.
 
