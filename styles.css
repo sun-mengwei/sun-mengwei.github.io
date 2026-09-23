@@ -48,9 +48,19 @@ article + article { margin-top: 1.5rem; }
 article > .entry-meta { margin-top: 0.1rem; }
 #research-title { font-size: 1.25rem; font-weight: 600; border: 0; padding-bottom: 0; }
 #research > article { margin-top: 1.1rem; }
+.research-project { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 1.5rem; align-items: start; }
+.project-figure { margin: 0; }
+.project-figure > a { display: block; }
+.project-image { display: block; width: 100%; height: auto; }
+.project-figure figcaption { margin-top: 0.45rem; color: var(--muted); font-size: 0.8rem; line-height: 1.5; }
+.project-copy { min-width: 0; font-size: 0.9375rem; }
+.project-copy h3 { font-size: 1rem; }
+.project-copy > p { margin-top: 0.6rem; }
 .project-links { font-size: 0.875rem; }
-#teaching-title { font-size: 1.125rem; font-weight: 500; color: var(--muted); border: 0; padding-bottom: 0; margin-bottom: 0.9rem; }
-#teaching h3 { font-size: 1rem; font-weight: 500; }
+#teaching-title { font-size: 1rem; font-weight: 500; color: var(--muted); border: 0; padding-bottom: 0; margin-bottom: 0.65rem; }
+#teaching h3 { font-size: 0.875rem; line-height: 1.5; font-weight: 400; }
+#teaching .entry-meta { font-size: 0.8125rem; line-height: 1.4; }
+#teaching article + article { margin-top: 0.7rem; }
 #teaching h3 a { color: var(--ink); text-decoration: none; }
 #teaching h3 a:hover { color: var(--accent); text-decoration: underline; }
 
@@ -59,6 +69,8 @@ article > .entry-meta { margin-top: 0.1rem; }
   .header-inner { gap: 2rem; }
   .site-name { flex-basis: 170px; }
   .page-layout { grid-template-columns: 170px minmax(0, 1fr); gap: 2rem; }
+  .research-project { grid-template-columns: 1fr; gap: 1rem; }
+  .project-figure { max-width: 360px; }
 }
 @media (max-width: 620px) {
   .header-inner, .page-layout { width: calc(100% - 2.5rem); }

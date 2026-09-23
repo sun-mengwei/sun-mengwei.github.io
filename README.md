@@ -12,7 +12,7 @@ A compact academic layout, retaining the original blue accent (`#2349cf`).
 
 - **Left sidebar** — a small portrait, name, position, affiliation, email, GitHub, and LinkedIn, with small blue icons.
 - **About me** — a concise personal introduction, including research interests.
-- **Research** — learning-based methods for dynamical systems, featuring the Deep Tangent Bundle Method for Game Dynamics project and its GitHub link.
+- **Research** — learning-based methods for dynamical systems, with a project figure on the left and the Deep Tangent Bundle description and GitHub link on the right. The figure and text stack on smaller screens.
 - **Teaching** — MATH 2551 (TA), MATH 4640 (LA), and MATH 3670 (LA) at Georgia Tech, with titles linked to the official course pages.
 
 On small screens, the sidebar sits above the main content. Research projects appear in the Research section; see the editing guide to add more. There is no publications section. Mengwei Sun’s name, biography, academic affiliation, email, and teaching courses have been supplied. The email, GitHub, and LinkedIn links are active. Teaching terms and responsibilities have not yet been provided and are omitted.
@@ -35,6 +35,8 @@ Then visit `http://127.0.0.1:4173`.
 - The email already uses a clickable `mailto:` link.
 - Change the colors, type, and layout in `styles.css`; the main colors are defined at the top.
 - There are no external fonts, scripts, trackers, images, or network dependencies.
+
+The project figure, `images/game-dynamics-comparison.png`, is the two-panel image supplied for this website: periodic full-basis refitting and the RK4 reference at ω/π = 4. The panels come from [the project's oscillatory particle-cloud comparison](https://github.com/sun-mengwei/deep-tangent-bundle-method-for-game-dynamics/blob/main/docs/images/oscillatory-clouds.png), originally Report Figure 7. They show historical report results, not a new execution of the notebooks. Clicking the figure opens the full-resolution image.
 
 ## GitHub Pages
 
